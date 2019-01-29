@@ -13,3 +13,7 @@ A script to analyse n-party-preferred further preferences on ballots with a give
 
 - Knowledge of how ballot numbers are assigned to candidates and tickets if you want to set up your own distributions. (`SenateCandidatesBallotNumbers.ods` should be of assistance.)
 
+### Usage
+
+- Edit `config.py` to suit your setup. Note in particular that you'll need to edit the paths to the preference CSVs, and you'll quite probably want to be analysing different tickets.
+- run `python3 fPP.py`
